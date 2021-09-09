@@ -5,12 +5,13 @@ dependencies:
 - python=3.7.4
 - sphinx
 - jupyter
+- pip
 - pip:
   - tensorflow==2.0.0
   - tensorflow-probability==0.8.0rc0
   - gym
   - catkin_pkg
   - sphinx_rtd_theme
-  - numpy
+  - numpy==1.19
   - matplotlib
   - sphinxcontrib-bibtex
